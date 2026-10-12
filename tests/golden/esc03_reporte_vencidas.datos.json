@@ -1,0 +1,60 @@
+{
+  "estudiantes": [
+    {
+      "legajo": "30001",
+      "nombre": "Diego",
+      "apellido": "Sosa",
+      "email": "diego.sosa@mail.com"
+    }
+  ],
+  "responsables": [
+    {
+      "id": 1,
+      "nombre": "Laura Gomez",
+      "area": "Alumnado"
+    },
+    {
+      "id": 2,
+      "nombre": "Martin Ruiz",
+      "area": "Secretaria Academica"
+    },
+    {
+      "id": 3,
+      "nombre": "Sofia Diaz",
+      "area": "Bedelia"
+    }
+  ],
+  "solicitudes": [
+    {
+      "id": 1,
+      "legajo": "30001",
+      "tipo": "MESA",
+      "descripcion": "Mesa especial por viaje de intercambio",
+      "prioridad": 1,
+      "estado": "P",
+      "responsable": null,
+      "fecha": "2026-10-01"
+    },
+    {
+      "id": 2,
+      "legajo": "30001",
+      "tipo": "CERT",
+      "descripcion": "Certificado de examenes rendidos",
+      "prioridad": 3,
+      "estado": "P",
+      "responsable": null,
+      "fecha": "2026-10-01"
+    },
+    {
+      "id": 3,
+      "legajo": "30001",
+      "tipo": "EQUIV",
+      "descripcion": "Equivalencia de Ingles II por certificado",
+      "prioridad": 2,
+      "estado": "EP",
+      "responsable": 2,
+      "fecha": "2026-10-01"
+    }
+  ],
+  "ultimo_id": 3
+}

@@ -1,0 +1,289 @@
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Registrar estudiante ---
+Legajo: Error: legajo invalido (4 a 6 digitos)
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Registrar estudiante ---
+Legajo: Nombre: Apellido: Email: Estudiante registrado: Perez, Ana
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Registrar estudiante ---
+Legajo: Error: ya existe un estudiante con ese legajo
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Registrar estudiante ---
+Legajo: Nombre: Apellido: Error: nombre y apellido son obligatorios
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Registrar estudiante ---
+Legajo: Nombre: Apellido: Email: Error: email invalido
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Registrar solicitud ---
+Legajo del estudiante: Error: el estudiante no existe
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Registrar solicitud ---
+Legajo del estudiante: Tipos: CERT=Certificado, EQUIV=Equivalencia, MESA=Mesa especial, RECL=Reclamo de nota
+Tipo: Error: tipo invalido
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Registrar solicitud ---
+Legajo del estudiante: Tipos: CERT=Certificado, EQUIV=Equivalencia, MESA=Mesa especial, RECL=Reclamo de nota
+Tipo: Descripcion: Error: la descripcion debe tener al menos 10 caracteres
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Registrar solicitud ---
+Legajo del estudiante: Tipos: CERT=Certificado, EQUIV=Equivalencia, MESA=Mesa especial, RECL=Reclamo de nota
+Tipo: Descripcion: Prioridad (1=Alta, 2=Media, 3=Baja, Enter=automatica): Error: prioridad invalida
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Registrar solicitud ---
+Legajo del estudiante: Tipos: CERT=Certificado, EQUIV=Equivalencia, MESA=Mesa especial, RECL=Reclamo de nota
+Tipo: Descripcion: Prioridad (1=Alta, 2=Media, 3=Baja, Enter=automatica): Solicitud #1 registrada para Perez, Ana
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Cambiar estado ---
+Nro de solicitud: Error: numero invalido
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Cambiar estado ---
+Nro de solicitud: Error: la solicitud no existe
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Cambiar estado ---
+Nro de solicitud: Estados: P=Pendiente, EP=En proceso, R=Resuelta, X=Rechazada
+Nuevo estado: Error: estado invalido
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Cambiar estado ---
+Nro de solicitud: Estados: P=Pendiente, EP=En proceso, R=Resuelta, X=Rechazada
+Nuevo estado: Error: transicion no permitida
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Cambiar estado ---
+Nro de solicitud: Estados: P=Pendiente, EP=En proceso, R=Resuelta, X=Rechazada
+Nuevo estado: Error: debe asignar un responsable antes
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Asignar responsable ---
+Nro de solicitud: 1) Laura Gomez - Alumnado
+2) Martin Ruiz - Secretaria Academica
+3) Sofia Diaz - Bedelia
+Responsable: Error: el responsable no existe
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Cambiar estado ---
+Nro de solicitud: Estados: P=Pendiente, EP=En proceso, R=Resuelta, X=Rechazada
+Nuevo estado: Solicitud #1 ahora esta Rechazada
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Asignar responsable ---
+Nro de solicitud: Error: la solicitud ya esta cerrada
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Buscar / filtrar ---
+Filtrar por: 1) Estado 2) Tipo 3) Legajo 4) Todas
+Opcion: Estado (P/EP/R/X): No se encontraron solicitudes
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Buscar / filtrar ---
+Filtrar por: 1) Estado 2) Tipo 3) Legajo 4) Todas
+Opcion: Tipo (CERT/EQUIV/MESA/RECL): #1 | MESA | Rechazada | Prioridad: Alta | Legajo: 10234 | Resp: -
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Buscar / filtrar ---
+Filtrar por: 1) Estado 2) Tipo 3) Legajo 4) Todas
+Opcion: Legajo: Error: legajo invalido (4 a 6 digitos)
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Buscar / filtrar ---
+Filtrar por: 1) Estado 2) Tipo 3) Legajo 4) Todas
+Opcion: Legajo: No se encontraron solicitudes
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Buscar / filtrar ---
+Filtrar por: 1) Estado 2) Tipo 3) Legajo 4) Todas
+Opcion: Error: opcion invalida
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: Opcion invalida
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: Hasta luego

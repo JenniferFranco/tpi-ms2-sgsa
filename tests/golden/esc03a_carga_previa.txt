@@ -1,0 +1,21 @@
+1
+30001
+Diego
+Sosa
+diego.sosa@mail.com
+2
+30001
+MESA
+Mesa especial por viaje de intercambio
+ 
+2
+30001
+CERT
+Certificado de examenes rendidos
+3
+2
+30001
+EQUIV
+Equivalencia de Ingles II por certificado
+ 
+0

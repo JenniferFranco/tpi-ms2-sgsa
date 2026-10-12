@@ -1,0 +1,5 @@
+pytest>=8
+flake8>=7
+pylint>=3
+radon>=6
+coverage>=7

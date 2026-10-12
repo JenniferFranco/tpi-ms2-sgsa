@@ -1,0 +1,40 @@
+{
+  "estudiantes": [
+    {
+      "legajo": "10234",
+      "nombre": "Ana",
+      "apellido": "Perez",
+      "email": "ana.perez@mail.com"
+    }
+  ],
+  "responsables": [
+    {
+      "id": 1,
+      "nombre": "Laura Gomez",
+      "area": "Alumnado"
+    },
+    {
+      "id": 2,
+      "nombre": "Martin Ruiz",
+      "area": "Secretaria Academica"
+    },
+    {
+      "id": 3,
+      "nombre": "Sofia Diaz",
+      "area": "Bedelia"
+    }
+  ],
+  "solicitudes": [
+    {
+      "id": 1,
+      "legajo": "10234",
+      "tipo": "MESA",
+      "descripcion": "Mesa especial por superposicion de examenes",
+      "prioridad": 1,
+      "estado": "X",
+      "responsable": null,
+      "fecha": "2026-10-12"
+    }
+  ],
+  "ultimo_id": 1
+}

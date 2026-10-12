@@ -1,0 +1,66 @@
+{
+  "estudiantes": [
+    {
+      "legajo": "10234",
+      "nombre": "Ana",
+      "apellido": "Perez",
+      "email": "ana.perez@mail.com"
+    },
+    {
+      "legajo": "20511",
+      "nombre": "Bruno",
+      "apellido": "Lopez",
+      "email": "bruno.lopez@mail.com"
+    }
+  ],
+  "responsables": [
+    {
+      "id": 1,
+      "nombre": "Laura Gomez",
+      "area": "Alumnado"
+    },
+    {
+      "id": 2,
+      "nombre": "Martin Ruiz",
+      "area": "Secretaria Academica"
+    },
+    {
+      "id": 3,
+      "nombre": "Sofia Diaz",
+      "area": "Bedelia"
+    }
+  ],
+  "solicitudes": [
+    {
+      "id": 1,
+      "legajo": "10234",
+      "tipo": "CERT",
+      "descripcion": "Certificado de alumna regular para ANSES",
+      "prioridad": 3,
+      "estado": "R",
+      "responsable": 2,
+      "fecha": "2026-10-12"
+    },
+    {
+      "id": 2,
+      "legajo": "10234",
+      "tipo": "RECL",
+      "descripcion": "Reclamo por nota del parcial 2 de Programacion",
+      "prioridad": 1,
+      "estado": "P",
+      "responsable": null,
+      "fecha": "2026-10-12"
+    },
+    {
+      "id": 3,
+      "legajo": "20511",
+      "tipo": "EQUIV",
+      "descripcion": "Equivalencia de Matematica I desde otra facultad",
+      "prioridad": 3,
+      "estado": "P",
+      "responsable": null,
+      "fecha": "2026-10-12"
+    }
+  ],
+  "ultimo_id": 3
+}

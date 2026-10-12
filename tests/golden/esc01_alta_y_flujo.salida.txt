@@ -1,0 +1,135 @@
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Registrar estudiante ---
+Legajo: Nombre: Apellido: Email: Estudiante registrado: Perez, Ana
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Registrar estudiante ---
+Legajo: Nombre: Apellido: Email: Estudiante registrado: Lopez, Bruno
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Registrar solicitud ---
+Legajo del estudiante: Tipos: CERT=Certificado, EQUIV=Equivalencia, MESA=Mesa especial, RECL=Reclamo de nota
+Tipo: Descripcion: Prioridad (1=Alta, 2=Media, 3=Baja, Enter=automatica): Solicitud #1 registrada para Perez, Ana
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Registrar solicitud ---
+Legajo del estudiante: Tipos: CERT=Certificado, EQUIV=Equivalencia, MESA=Mesa especial, RECL=Reclamo de nota
+Tipo: Descripcion: Prioridad (1=Alta, 2=Media, 3=Baja, Enter=automatica): Solicitud #2 registrada para Perez, Ana
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Registrar solicitud ---
+Legajo del estudiante: Tipos: CERT=Certificado, EQUIV=Equivalencia, MESA=Mesa especial, RECL=Reclamo de nota
+Tipo: Descripcion: Prioridad (1=Alta, 2=Media, 3=Baja, Enter=automatica): Solicitud #3 registrada para Lopez, Bruno
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Asignar responsable ---
+Nro de solicitud: 1) Laura Gomez - Alumnado
+2) Martin Ruiz - Secretaria Academica
+3) Sofia Diaz - Bedelia
+Responsable: Solicitud #1 asignada a Martin Ruiz
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Cambiar estado ---
+Nro de solicitud: Estados: P=Pendiente, EP=En proceso, R=Resuelta, X=Rechazada
+Nuevo estado: Error: transicion no permitida
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Cambiar estado ---
+Nro de solicitud: Estados: P=Pendiente, EP=En proceso, R=Resuelta, X=Rechazada
+Nuevo estado: Solicitud #1 ahora esta Resuelta
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Buscar / filtrar ---
+Filtrar por: 1) Estado 2) Tipo 3) Legajo 4) Todas
+Opcion: #2 | RECL | Pendiente | Prioridad: Alta | Legajo: 10234 | Resp: -
+#1 | CERT | Resuelta | Prioridad: Baja | Legajo: 10234 | Resp: Martin Ruiz
+#3 | EQUIV | Pendiente | Prioridad: Baja | Legajo: 20511 | Resp: -
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: --- Reporte basico ---
+Total de solicitudes: 3
+Por estado -> Pendiente: 2 | En proceso: 0 | Resuelta: 1 | Rechazada: 0
+Por tipo -> CERT: 1 | EQUIV: 1 | MESA: 0 | RECL: 1
+Abiertas con prioridad alta: 1
+Pendientes con mas de 3 dias sin atender: 0
+
+===== SGSA - Gestion de Solicitudes Academicas =====
+1. Registrar estudiante
+2. Registrar solicitud
+3. Cambiar estado de solicitud
+4. Asignar responsable
+5. Buscar / filtrar solicitudes
+6. Reporte basico
+0. Salir
+Opcion: Hasta luego

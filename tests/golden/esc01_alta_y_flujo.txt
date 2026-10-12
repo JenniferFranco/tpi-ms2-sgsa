@@ -1,0 +1,38 @@
+1
+10234
+Ana
+Perez
+ana.perez@mail.com
+1
+20511
+Bruno
+Lopez
+bruno.lopez@mail.com
+2
+10234
+CERT
+Certificado de alumna regular para ANSES
+ 
+2
+10234
+RECL
+Reclamo por nota del parcial 2 de Programacion
+ 
+2
+20511
+EQUIV
+Equivalencia de Matematica I desde otra facultad
+3
+4
+1
+2
+3
+1
+EP
+3
+1
+R
+5
+4
+6
+0
