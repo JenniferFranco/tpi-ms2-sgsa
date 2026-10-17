@@ -1,0 +1,23 @@
+sistema.py:3:12: E401 multiple imports on one line
+sistema.py:15:5: E722 do not use bare 'except'
+sistema.py:70:16: E711 comparison to None should be 'if cond is None:'
+sistema.py:98:111: E501 line too long (123 > 110 characters)
+sistema.py:100:111: E501 line too long (113 > 110 characters)
+sistema.py:115:9: E722 do not use bare 'except'
+sistema.py:122:14: E711 comparison to None should be 'if cond is None:'
+sistema.py:137:17: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+sistema.py:140:47: E711 comparison to None should be 'if cond is None:'
+sistema.py:161:9: E722 do not use bare 'except'
+sistema.py:168:14: E711 comparison to None should be 'if cond is None:'
+sistema.py:178:9: E722 do not use bare 'except'
+sistema.py:185:17: E711 comparison to None should be 'if cond is None:'
+sistema.py:249:111: E501 line too long (142 > 110 characters)
+sistema.py:258:9: E722 do not use bare 'except'
+sistema.py:262:15: E702 multiple statements on one line (semicolon)
+sistema.py:262:23: E702 multiple statements on one line (semicolon)
+sistema.py:262:31: E702 multiple statements on one line (semicolon)
+sistema.py:272:111: E501 line too long (139 > 110 characters)
+sistema.py:273:15: E702 multiple statements on one line (semicolon)
+sistema.py:273:23: E702 multiple statements on one line (semicolon)
+sistema.py:273:31: E702 multiple statements on one line (semicolon)
+sistema.py:283:111: E501 line too long (118 > 110 characters)

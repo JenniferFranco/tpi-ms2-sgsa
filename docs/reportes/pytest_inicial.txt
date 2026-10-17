@@ -1,0 +1,11 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/claude/tpi/inicial
+collecting ... collected 3 items
+
+tests/test_golden_master.py::test_comportamiento_externo_se_mantiene[esc01_alta_y_flujo] PASSED [ 33%]
+tests/test_golden_master.py::test_comportamiento_externo_se_mantiene[esc02_validaciones] PASSED [ 66%]
+tests/test_golden_master.py::test_comportamiento_externo_se_mantiene[esc03_reporte_vencidas] PASSED [100%]
+
+============================== 3 passed in 0.14s ===============================

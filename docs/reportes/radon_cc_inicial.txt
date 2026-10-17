@@ -1,0 +1,15 @@
+sistema.py
+    M 197:4 GestorSolicitudes.buscar - D (23)
+    M 111:4 GestorSolicitudes.cambiar_estado - D (21)
+    M 251:4 GestorSolicitudes.reporte - C (20)
+    M 59:4 GestorSolicitudes.registrar_solicitud - C (19)
+    C 31:0 GestorSolicitudes - C (16)
+    M 157:4 GestorSolicitudes.asignar_responsable - C (13)
+    M 33:4 GestorSolicitudes.registrar_estudiante - B (10)
+    F 300:0 main - B (9)
+    F 9:0 cargar - A (2)
+    F 24:0 hoy - A (2)
+    M 100:4 GestorSolicitudes.crear_solicitud - A (1)
+
+11 blocks (classes, functions, methods) analyzed.
+Average complexity: C (12.363636363636363)
