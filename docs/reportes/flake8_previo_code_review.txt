@@ -1,0 +1,6 @@
+sgsa/dominio/modelos.py:78:101: E501 line too long (103 > 100 characters)
+sgsa/ui/consola.py:89:101: E501 line too long (104 > 100 characters)
+sgsa/ui/consola.py:139:101: E501 line too long (101 > 100 characters)
+tests/test_golden_master.py:50:101: E501 line too long (109 > 100 characters)
+tests/test_golden_master.py:56:101: E501 line too long (107 > 100 characters)
+tests/test_servicios.py:79:101: E501 line too long (104 > 100 characters)

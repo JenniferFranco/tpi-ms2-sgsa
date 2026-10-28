@@ -1,0 +1,14 @@
+************* Module sgsa.dominio.modelos
+sgsa/dominio/modelos.py:78:0: C0301: Line too long (103/100) (line-too-long)
+sgsa/dominio/modelos.py:41:0: R0902: Too many instance attributes (8/7) (too-many-instance-attributes)
+************* Module sgsa.ui.consola
+sgsa/ui/consola.py:89:0: C0301: Line too long (104/100) (line-too-long)
+sgsa/ui/consola.py:139:0: C0301: Line too long (101/100) (line-too-long)
+sgsa/ui/consola.py:29:8: W0707: Consider explicitly re-raising using 'except ValueError as exc' and 'raise DatoInvalidoError('numero invalido') from exc' (raise-missing-from)
+sgsa/ui/consola.py:36:8: W0707: Consider explicitly re-raising using 'except ValueError as exc' and 'raise DatoInvalidoError(error) from exc' (raise-missing-from)
+************* Module sgsa.servicios.servicio_reportes
+sgsa/servicios/servicio_reportes.py:21:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 9.85/10 (previous run: 9.85/10, +0.00)
+
