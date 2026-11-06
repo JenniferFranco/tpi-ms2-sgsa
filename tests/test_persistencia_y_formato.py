@@ -1,4 +1,5 @@
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -42,7 +43,7 @@ def test_archivo_danado_se_informa_y_no_se_sobrescribe(tmp_path):
     archivo.write_text("{ esto no es json")
     resultado = subprocess.run([sys.executable, "sistema.py"], cwd=RAIZ, input="0\n",
                                capture_output=True, text=True,
-                               env={"SGSA_DATA": str(archivo), "PATH": ""})
+                               env=dict(os.environ, SGSA_DATA=str(archivo)))
     assert resultado.returncode == 1
     assert "archivo de datos esta danado" in resultado.stdout
     assert archivo.read_text() == "{ esto no es json"

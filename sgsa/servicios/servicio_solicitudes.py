@@ -67,6 +67,11 @@ class ServicioSolicitudes:
             raise EntidadNoEncontradaError("la solicitud no existe")
         return solicitud
 
+    def obtener_solicitud_abierta(self, solicitud_id: int) -> Solicitud:
+        solicitud = self.obtener_solicitud(solicitud_id)
+        solicitud.verificar_que_este_abierta()
+        return solicitud
+
     def cambiar_estado(self, solicitud_id: int, nuevo_estado: Estado) -> Solicitud:
         solicitud = self.obtener_solicitud(solicitud_id)
         solicitud.cambiar_estado(nuevo_estado)

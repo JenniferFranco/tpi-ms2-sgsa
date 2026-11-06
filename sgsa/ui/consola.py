@@ -25,15 +25,15 @@ def leer(mensaje: str) -> str:
 def leer_entero(mensaje: str) -> int:
     try:
         return int(input(mensaje))
-    except ValueError:
-        raise DatoInvalidoError("numero invalido")
+    except ValueError as causa:
+        raise DatoInvalidoError("numero invalido") from causa
 
 
 def leer_codigo(mensaje: str, conversor: Callable, error: str):
     try:
         return conversor(leer(mensaje).upper())
-    except ValueError:
-        raise DatoInvalidoError(error)
+    except ValueError as causa:
+        raise DatoInvalidoError(error) from causa
 
 
 class ConsolaSGSA:
@@ -86,7 +86,8 @@ class ConsolaSGSA:
         apellido = leer("Apellido: ")
         validar_nombre_completo(nombre, apellido)
         email = validar_email(leer("Email: "))
-        estudiante = self._solicitudes.registrar_estudiante(Estudiante(legajo, nombre, apellido, email))
+        estudiante = Estudiante(legajo, nombre, apellido, email)
+        self._solicitudes.registrar_estudiante(estudiante)
         print(f"Estudiante registrado: {estudiante.nombre_para_mostrar}")
 
     def registrar_solicitud(self) -> None:
@@ -119,8 +120,7 @@ class ConsolaSGSA:
 
     def asignar_responsable(self) -> None:
         print("--- Asignar responsable ---")
-        solicitud = self._solicitudes.obtener_solicitud(leer_entero("Nro de solicitud: "))
-        solicitud.verificar_que_este_abierta()
+        solicitud = self._solicitudes.obtener_solicitud_abierta(leer_entero("Nro de solicitud: "))
         for responsable in self._solicitudes.listar_responsables():
             print(f"{responsable.id}) {responsable.nombre} - {responsable.area}")
         responsable_id = leer_entero("Responsable: ")
@@ -136,7 +136,8 @@ class ConsolaSGSA:
             print("No se encontraron solicitudes")
             return
         for solicitud in encontradas:
-            print(formato.fila_solicitud(solicitud, self._solicitudes.nombre_responsable(solicitud)))
+            nombre_responsable = self._solicitudes.nombre_responsable(solicitud)
+            print(formato.fila_solicitud(solicitud, nombre_responsable))
 
     def _leer_filtro(self, opcion: str) -> FiltroSolicitudes:
         if opcion == "1":
