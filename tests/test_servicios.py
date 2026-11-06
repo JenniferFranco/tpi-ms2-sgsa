@@ -76,7 +76,8 @@ def test_busqueda_por_legajo_invalido(servicio):
 def test_reporte_cuenta_por_estado_tipo_y_vencidas(repositorio, servicio, nueva_solicitud):
     servicio.registrar_solicitud(nueva_solicitud(TipoSolicitud.MESA_ESPECIAL, Prioridad.ALTA))
     servicio.registrar_solicitud(nueva_solicitud(fecha=date(2026, 10, 10)))
-    tercera = servicio.registrar_solicitud(nueva_solicitud(TipoSolicitud.EQUIVALENCIA, Prioridad.MEDIA))
+    tercera = servicio.registrar_solicitud(
+        nueva_solicitud(TipoSolicitud.EQUIVALENCIA, Prioridad.MEDIA))
     servicio.asignar_responsable(tercera.id, 1)
 
     reporte = ServicioReportes(repositorio).generar(hoy=date(2026, 10, 12))

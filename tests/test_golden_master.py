@@ -47,13 +47,16 @@ def ejecutar(guion: str, fecha: str, archivo_datos: Path) -> str:
 def test_comportamiento_externo_se_mantiene(nombre, pasos, tmp_path):
     archivo_datos = tmp_path / "datos.json"
     salida = "".join(ejecutar(g, f, archivo_datos) for g, f in pasos)
-    datos_finales = json.loads(archivo_datos.read_text(encoding="utf-8")) if archivo_datos.exists() else None
+    datos_finales = None
+    if archivo_datos.exists():
+        datos_finales = json.loads(archivo_datos.read_text(encoding="utf-8"))
 
     esperado_txt = GOLDEN / f"{nombre}.salida.txt"
     esperado_json = GOLDEN / f"{nombre}.datos.json"
     if APROBAR:
         esperado_txt.write_text(salida, encoding="utf-8")
-        esperado_json.write_text(json.dumps(datos_finales, indent=2, ensure_ascii=False), encoding="utf-8")
+        contenido = json.dumps(datos_finales, indent=2, ensure_ascii=False)
+        esperado_json.write_text(contenido, encoding="utf-8")
         pytest.skip("salida aprobada regenerada")
 
     assert salida == esperado_txt.read_text(encoding="utf-8")
