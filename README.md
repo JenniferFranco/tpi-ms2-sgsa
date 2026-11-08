@@ -21,8 +21,8 @@ Python 3.10+ (solo biblioteca estándar) · JSON · pytest · flake8 · pylint �
 
 ## Instalación y uso
 ```bash
-git clone <URL-DEL-REPO>
-cd sgsa
+git clone https://github.com/JenniferFranco/tpi-ms2-sgsa.git
+cd tpi-ms2-sgsa
 python sistema.py                     # crea datos.json en la carpeta actual
 SGSA_DATA=otro.json python sistema.py # (opcional) otro archivo de datos
 ```
@@ -71,5 +71,5 @@ Comparar versiones: `git diff estado-inicial estado-refactorizado --stat`.
 
 ## Enlaces
 - Video: _(completar)_
-- Code review: [Pull Request #1](https://github.com/JenniferFranco/tpi-ms2-sgsa/pull/1) (observaciones) y [Pull Request #2](https://github.com/JenniferFranco/tpi-ms2-sgsa/pull/2) (correcciones).
+- Code review: [Pull Request #1](https://github.com/JenniferFranco/tpi-ms2-sgsa/pull/1) (observaciones) y [Pull Request #2](https://github.com/JenniferFranco/tpi-ms2-sgsa/pull/2) (correcciones CR-01, CR-03 y CR-05). Las correcciones CR-02 y CR-04 se completaron en el commit `f63701a` en main.
 - Informe PDF: entregado en la plataforma.
