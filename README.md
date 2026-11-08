@@ -70,6 +70,6 @@ Comparar versiones: `git diff estado-inicial estado-refactorizado --stat`.
 | Jonathan Franco (GitHub: Yonathannf) | Golden master, code smells, refactoring de servicios y UI, pruebas unitarias, revisión de dominio y persistencia, correcciones CR-01, CR-03 y CR-05. |
 
 ## Enlaces
-- Video: _(completar)_
+- Video: https://youtu.be/gMaR0jz800g
 - Code review: [Pull Request #1](https://github.com/JenniferFranco/tpi-ms2-sgsa/pull/1) (observaciones) y [Pull Request #2](https://github.com/JenniferFranco/tpi-ms2-sgsa/pull/2) (correcciones CR-01, CR-03 y CR-05). Las correcciones CR-02 y CR-04 se completaron en el commit `f63701a` en main.
 - Informe PDF: entregado en la plataforma.
