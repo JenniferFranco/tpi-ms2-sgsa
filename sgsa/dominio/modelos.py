@@ -75,7 +75,9 @@ class Solicitud:
             self.estado = Estado.EN_PROCESO
 
     def esta_vencida(self, hoy: date) -> bool:
-        return self.estado is Estado.PENDIENTE and (hoy - self.fecha) > reglas.PLAZO_MAXIMO_SIN_ATENDER
+        tiempo_sin_atender = hoy - self.fecha
+        superado = tiempo_sin_atender > reglas.PLAZO_MAXIMO_SIN_ATENDER
+        return self.estado is Estado.PENDIENTE and superado    
 
     def es_prioritaria_abierta(self) -> bool:
         return self.prioridad is Prioridad.ALTA and self.estado.esta_abierta

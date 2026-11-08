@@ -1,0 +1,21 @@
+Name                                       Stmts   Miss  Cover
+--------------------------------------------------------------
+sgsa/__init__.py                               0      0   100%
+sgsa/config.py                                11      5    55%
+sgsa/dominio/__init__.py                       0      0   100%
+sgsa/dominio/enums.py                         48      2    96%
+sgsa/dominio/excepciones.py                    9      0   100%
+sgsa/dominio/modelos.py                       63      1    98%
+sgsa/dominio/reglas.py                        10      0   100%
+sgsa/dominio/validadores.py                   21      0   100%
+sgsa/persistencia/__init__.py                  0      0   100%
+sgsa/persistencia/repositorio.py               8      0   100%
+sgsa/persistencia/repositorio_json.py         28      0   100%
+sgsa/persistencia/repositorio_memoria.py      28      0   100%
+sgsa/servicios/__init__.py                     0      0   100%
+sgsa/servicios/servicio_reportes.py           24      0   100%
+sgsa/servicios/servicio_solicitudes.py        80      8    90%
+sgsa/ui/__init__.py                            0      0   100%
+sgsa/ui/formato.py                            25     11    56%
+--------------------------------------------------------------
+TOTAL                                        355     27    92%

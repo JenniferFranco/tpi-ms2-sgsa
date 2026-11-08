@@ -1,0 +1,8 @@
+************* Module sgsa.dominio.modelos
+sgsa/dominio/modelos.py:41:0: R0902: Too many instance attributes (8/7) (too-many-instance-attributes)
+************* Module sgsa.servicios.servicio_reportes
+sgsa/servicios/servicio_reportes.py:21:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 9.96/10 (previous run: 9.94/10, +0.02)
+

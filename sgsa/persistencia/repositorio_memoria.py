@@ -41,6 +41,7 @@ class RepositorioEnMemoria(RepositorioSGSA):
         return solicitud
 
     def actualizar_solicitud(self, solicitud: Solicitud) -> None:
+        # Las solicitudes en memoria se modifican por referencia; solo resta persistir.
         self._guardar()
 
     def _guardar(self) -> None:
